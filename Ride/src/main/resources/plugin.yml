@@ -1,0 +1,20 @@
+name: BoatRide
+main: com.aurora.Main
+version: 1.1
+api-version: 1.16
+commands:
+  ride:
+    description: "Spawn a boat to ride on ice."
+    usage: "/ride"
+    permission: ride.use
+  boatridereload:
+    description: "Reloads the plugin config."
+    usage: "/boatridereload"
+    permission: ride.admin
+permissions:
+  ride.use:
+    description: "Allows the player to use the /ride command."
+    default: op
+  ride.admin:
+    description: "Allows the player to reload the config."
+    default: op

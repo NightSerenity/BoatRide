@@ -1,0 +1,14 @@
+ # Permissions
+  permission: "ride.use"  # Permission to use the "/ride" command
+  admin-permission: "ride.admin"  # Permission to use the "/boatridereload" to reload the plugin
+
+# Boat despawn time (in seconds)
+# If set to 0, the boat will despawn immediately
+despawn-time: 4
+
+# Allowed blocks for spawning the boat
+# You can add other blocks, e.g., "SNOW_BLOCK"
+allowed-blocks:
+  - "ICE"
+  - "PACKED_ICE"
+  - "BLUE_ICE"
