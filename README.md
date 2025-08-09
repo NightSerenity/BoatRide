@@ -5,7 +5,7 @@ Java 11 required.
 
 Command: /ride
 
-After you exit the boat it will disappear after 4 seconds. (you can change it in config.yml)
+After you exit the boat it will disappear after 4 seconds. (you can change it in BoatRide/config.yml)
 
 Permissions are also supported.
 
